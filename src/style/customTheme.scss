@@ -41,82 +41,96 @@ $blue-700: #0e45a8;
 $blue-800: #002e7f;
 $blue-900: #00153a;
 
-$teal-050: #000000;
-$teal-100: #000000;
-$teal-200: #000000;
-$teal-300: #000000;
-$teal-400: #000000;
-$teal-500: #000000;
-$teal-600: #000000;
-$teal-700: #000000;
-$teal-800: #000000;
-$teal-900: #000000;
+$teal-050: #d1f2f0;
+$teal-100: #a5efe9;
+$teal-200: #6ae5e1;
+$teal-300: #2cddd0;
+$teal-400: #06bfb5;
+$teal-500: #00a3a3;
+$teal-600: #008791;
+$teal-700: #006368;
+$teal-800: #003c44;
+$teal-900: #001f21;
 
-$green-050: #000000;
-$green-100: #000000;
-$green-200: #000000;
-$green-300: #000000;
-$green-400: #000000;
-$green-500: #000000;
-$green-600: #000000;
-$green-700: #000000;
-$green-800: #000000;
-$green-900: #000000;
+$green-050: #dcefdd;
+$green-100: #adf2ad;
+$green-200: #7fe57f;
+$green-300: #63d363;
+$green-400: #43af45;
+$green-500: #2ca032;
+$green-600: #008200;
+$green-700: #006602;
+$green-800: #004200;
+$green-900: #001900;
 
-$yellow-050: #000000;
-$yellow-100: #000000;
-$yellow-200: #000000;
-$yellow-300: #000000;
-$yellow-400: #000000;
-$yellow-500: #000000;
-$yellow-600: #000000;
-$yellow-700: #000000;
-$yellow-800: #000000;
-$yellow-900: #000000;
+$yellow-050: #fff3b6;
+$yellow-100: #ffe67b;
+$yellow-200: #ffde28;
+$yellow-300: #ffd41d;
+$yellow-400: #f2b800;
+$yellow-500: #bf8400;
+$yellow-600: #995e00;
+$yellow-700: #724400;
+$yellow-800: #4c2c00;
+$yellow-900: #2b1600;
 
-$orange-050: #000000;
-$orange-100: #000000;
-$orange-200: #000000;
-$orange-300: #000000;
-$orange-400: #000000;
-$orange-500: #000000;
-$orange-600: #000000;
-$orange-700: #000000;
-$orange-800: #000000;
-$orange-900: #000000;
+$orange-050: #fce2d7;
+$orange-100: #ffd2c0;
+$orange-200: #ffa788;
+$orange-300: #f48657;
+$orange-400: #f17038;
+$orange-500: #ee5310;
+$orange-600: #e54107;
+$orange-700: #992f00;
+$orange-800: #661f00;
+$orange-900: #381000;
 
-$red-050: #000000;
-$red-100: #000000;
-$red-200: #000000;
-$red-300: #000000;
-$red-400: #000000;
-$red-500: #000000;
-$red-600: #000000;
-$red-700: #000000;
-$red-800: #000000;
-$red-900: #000000;
+$red-050: #ffe6ee;
+$red-100: #ffcce3;
+$red-200: #ff99bb;
+$red-300: #ff859c;
+$red-400: #ff4a5c;
+$red-500: #f43434;
+$red-600: #e11c1a;
+$red-700: #a30000;
+$red-800: #700000;
+$red-900: #380100;
 
-$purple-050: #000000;
-$purple-100: #000000;
-$purple-200: #000000;
-$purple-300: #000000;
-$purple-400: #000000;
-$purple-500: #000000;
-$purple-600: #000000;
-$purple-700: #000000;
-$purple-800: #000000;
-$purple-900: #000000;
+$purple-050: #ede2ff;
+$purple-100: #e0d2ff;
+$purple-200: #b99fff;
+$purple-300: #a888ff;
+$purple-400: #936cff;
+$purple-500: #8255ff;
+$purple-600: #7033e5;
+$purple-700: #5800ce;
+$purple-800: #3b0089;
+$purple-900: #100030;
 
 $blue: $blue-600;
-$teal: $teal-600;
+$teal: $teal-400;
 $green: $green-600;
-$yellow: $yellow-600;
+$yellow: $yellow-200;
 $orange: $orange-600;
 $red: $red-600;
 $purple: $purple-600;
-$gray: $gray-600;
-$light: $gray-100;
-$dark: $gray-800;
+$blue-on-dark: $blue-300;
+$teal-on-dark: $teal-200;
+$green-on-dark: $green-200;
+$yellow-on-dark: $yellow-200;
+$orange-on-dark: $orange-400;
+$red-on-dark: $red-400;
+$purple-on-dark: $purple-300;
+$blue-on-light: $blue-700;
+$teal-on-light: $teal-700;
+$green-on-light: $green-700;
+$yellow-on-light: $yellow-700;
+$orange-on-light: $orange-700;
+$red-on-light: $red-700;
+$purple-on-light: $purple-700;
+$gray: $gray-700;
+$gray-on-dark: $gray-200;
+$gray-on-light: $gray-800;
 
 $colors: (
    "blue": $blue,
@@ -126,9 +140,23 @@ $colors: (
    "orange": $orange,
    "red": $red,
    "purple": $purple,
+   "blue-on-dark": $blue-on-dark,
+   "teal-on-dark": $teal-on-dark,
+   "green-on-dark": $green-on-dark,
+   "yellow-on-dark": $yellow-on-dark,
+   "orange-on-dark": $orange-on-dark,
+   "red-on-dark": $red-on-dark,
+   "purple-on-dark": $purple-on-dark,
+   "blue-on-light": $blue-on-light,
+   "teal-on-light": $teal-on-light,
+   "green-on-light": $green-on-light,
+   "yellow-on-light": $yellow-on-light,
+   "orange-on-light": $orange-on-light,
+   "red-on-light": $red-on-light,
+   "purple-on-light": $purple-on-light,
    "gray": $gray,
-   "light": $light,
-   "dark": $dark,
+   "gray-on-dark": $gray-on-dark,
+   "gray-on-light": $gray-on-light,
    "white": $white,
    "black": $black,
 );
@@ -143,17 +171,35 @@ $theme-colors: (
    "orange": $orange,
    "red": $red,
    "purple": $purple,
+   "blue-on-dark": $blue-on-dark,
+   "teal-on-dark": $teal-on-dark,
+   "green-on-dark": $green-on-dark,
+   "yellow-on-dark": $yellow-on-dark,
+   "orange-on-dark": $orange-on-dark,
+   "red-on-dark": $red-on-dark,
+   "purple-on-dark": $purple-on-dark,
+   "blue-on-light": $blue-on-light,
+   "teal-on-light": $teal-on-light,
+   "green-on-light": $green-on-light,
+   "yellow-on-light": $yellow-on-light,
+   "orange-on-light": $orange-on-light,
+   "red-on-light": $red-on-light,
+   "purple-on-light": $purple-on-light,
    "gray": $gray,
-   "light": $light,
-   "dark": $dark,
+   "gray-on-dark": $gray-on-dark,
+   "gray-on-light": $gray-on-light,
    "white": $white,
    "black": $black,
 );
 
 // 1.4 Contrast
 
-$min-contrast-ratio: 4.5;
+$min-contrast-ratio: 4;
 
 // Customize the light and dark text colors for use in our color contrast function.
 $color-contrast-dark: $black;
 $color-contrast-light: $white;
+
+// 2 Links
+
+$link-hover-decoration: none;
