@@ -9,6 +9,7 @@ const IndexPage = () => {
       "yellow",
       "orange",
       "red",
+      "pink",
       "purple",
       "gray",
    ];
@@ -16,10 +17,11 @@ const IndexPage = () => {
       const colorDict = {
          blue: "white",
          teal: "black",
-         green: "white",
+         green: "black",
          yellow: "black",
-         orange: "white",
-         red: "white",
+         orange: "black",
+         red: "black",
+         pink: "black",
          purple: "white",
          gray: "white",
       };
@@ -34,6 +36,32 @@ const IndexPage = () => {
                {colors.map((color) => {
                   return (
                      <div className="col-3 mt-4">
+                        <nav className="navbar navbar-expand-lg navbar-dark bg-black rounded mb-4">
+                           <div className="container-fluid">
+                              <a
+                                 className="navbar-brand"
+                                 href="https://www.google.com"
+                              >
+                                 Navigation
+                              </a>
+
+                              <div className="float-end">
+                                 <button
+                                    className={`btn btn-link text-${color}-on-dark d-inline`}
+                                    href="https://www.google.com"
+                                 >
+                                    Link
+                                 </button>
+
+                                 <button
+                                    className={`btn btn-outline-${color}-on-dark ms-4`}
+                                    type="submit"
+                                 >
+                                    Call to action
+                                 </button>
+                              </div>
+                           </div>
+                        </nav>
                         <div
                            className="toast show mb-4 float-end"
                            role="alert"
@@ -62,16 +90,16 @@ const IndexPage = () => {
                         <div className="clearfix" />
 
                         <div className="card mb-4">
-                           <div
+                           {/* <div
                               className={`card-header bg-${color} text-${getYiqColor(
                                  color
                               )}`}
                            >
                               Featured Section
-                           </div>
+                           </div> */}
                            <div className="card-body">
                               <h5 className="card-title">
-                                 Special title treatment
+                                 An interactive element
                               </h5>
                               <p className="card-text">
                                  Supporting text with a link to even more{" "}
@@ -128,33 +156,7 @@ const IndexPage = () => {
                               .
                            </div>
                         </div>
-
-                        <nav className="navbar navbar-expand-lg navbar-dark bg-black rounded mb-5">
-                           <div className="container-fluid">
-                              <a
-                                 className="navbar-brand"
-                                 href="https://www.google.com"
-                              >
-                                 Navigation
-                              </a>
-
-                              <div className="float-end">
-                                 <button
-                                    className={`btn btn-link text-${color}-on-dark d-inline`}
-                                    href="https://www.google.com"
-                                 >
-                                    Link
-                                 </button>
-
-                                 <button
-                                    className={`btn btn-outline-${color}-on-dark ms-4`}
-                                    type="submit"
-                                 >
-                                    Call to action
-                                 </button>
-                              </div>
-                           </div>
-                        </nav>
+                        <br className="mb-4"></br>
                      </div>
                   );
                })}

@@ -10,6 +10,7 @@
 
 .alert-yellow .alert-link:hover {
    color: $yellow-900;
+   background-color: $yellow-100;
 }
 
 .alert-blue {
@@ -24,6 +25,7 @@
 
 .alert-blue .alert-link:hover {
    color: $blue-900;
+   background-color: $blue-100;
 }
 
 .alert-teal {
@@ -38,6 +40,7 @@
 
 .alert-teal .alert-link:hover {
    color: $teal-900;
+   background-color: $teal-100;
 }
 
 .alert-green {
@@ -52,6 +55,7 @@
 
 .alert-green .alert-link:hover {
    color: $green-900;
+   background-color: $green-100;
 }
 
 .alert-yellow {
@@ -66,6 +70,7 @@
 
 .alert-yellow .alert-link:hover {
    color: $yellow-900;
+   background-color: $yellow-100;
 }
 
 .alert-orange {
@@ -80,6 +85,7 @@
 
 .alert-orange .alert-link:hover {
    color: $orange-900;
+   background-color: $orange-100;
 }
 
 .alert-red {
@@ -94,6 +100,22 @@
 
 .alert-red .alert-link:hover {
    color: $red-900;
+   background-color: $red-100;
+}
+
+.alert-pink {
+   color: $pink-800;
+   background-color: $pink-050;
+   border-color: $pink-100;
+}
+
+.alert-pink .alert-link {
+   color: $pink-800;
+}
+
+.alert-pink .alert-link:hover {
+   color: $pink-900;
+   background-color: $pink-100;
 }
 
 .alert-purple {
@@ -108,6 +130,7 @@
 
 .alert-purple .alert-link:hover {
    color: $purple-900;
+   background-color: $purple-100;
 }
 
 .alert-gray {
@@ -122,6 +145,7 @@
 
 .alert-gray .alert-link:hover {
    color: $gray-900;
+   background-color: $gray-100;
 }
 
 a.text-blue-on-light:hover {
@@ -152,6 +176,11 @@ a.text-orange-on-light:hover {
 a.text-red-on-light:hover {
    background-color: $red-050;
    color: $red-800 !important;
+}
+
+a.text-pink-on-light:hover {
+   background-color: $pink-050;
+   color: $pink-800 !important;
 }
 
 a.text-purple-on-light:hover {

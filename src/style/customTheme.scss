@@ -3,16 +3,16 @@
 // 1.1 Grays
 
 $white: #fff;
-$gray-050: #e9e9e9;
-$gray-100: #d2d3d3;
-$gray-200: #bcbdbd;
-$gray-300: #a6a7a7;
-$gray-400: #8f9091;
-$gray-500: #797a7b;
-$gray-600: #636465;
-$gray-700: #4c4e4f;
-$gray-800: #363839;
-$gray-900: #1b1c1d;
+$gray-050: #e6e6e6;
+$gray-100: #cdcdce;
+$gray-200: #b4b4b5;
+$gray-300: #9b9c9c;
+$gray-400: #818383;
+$gray-500: #686a6b;
+$gray-600: #4f5152;
+$gray-700: #363839;
+$gray-800: #202222;
+$gray-900: #0b0b0b;
 $black: #000;
 
 $grays: (
@@ -30,107 +30,129 @@ $grays: (
 
 // 1.2 Hues
 
-$blue-050: #d2f0ff;
-$blue-100: #a1ddff;
-$blue-200: #66d0ff;
-$blue-300: #48c7ff;
-$blue-400: #22a6ef;
-$blue-500: #0690ef;
-$blue-600: #0868e5;
-$blue-700: #0e45a8;
-$blue-800: #002e7f;
-$blue-900: #00153a;
+$blue-050: #d9e6ff;
+$blue-100: #b6d2ff;
+$blue-200: #8db2ff;
+$blue-300: #719dff;
+$blue-400: #4873ff;
+$blue-500: #2957ff;
+$blue-600: #1b3bff;
+$blue-700: #0033c4;
+$blue-800: #001c75;
+$blue-900: #00062b;
 
-$teal-050: #d1f2f0;
-$teal-100: #a5efe9;
-$teal-200: #6ae5e1;
-$teal-300: #2cddd0;
-$teal-400: #06bfb5;
-$teal-500: #00a3a3;
-$teal-600: #008791;
-$teal-700: #006368;
-$teal-800: #003c44;
-$teal-900: #001f21;
+$teal-050: #ccf1fa;
+$teal-100: #6ee1f4;
+$teal-200: #00b8e5;
+$teal-300: #00a2ce;
+$teal-400: #008aaf;
+$teal-500: #00708e;
+$teal-600: #005366;
+$teal-700: #003847;
+$teal-800: #00232d;
+$teal-900: #001319;
 
-$green-050: #dcefdd;
-$green-100: #adf2ad;
-$green-200: #7fe57f;
-$green-300: #63d363;
-$green-400: #43af45;
-$green-500: #2ca032;
-$green-600: #008200;
-$green-700: #006602;
-$green-800: #004200;
-$green-900: #001900;
+$green-050: #d7ffe1;
+$green-100: #71db8f;
+$green-200: #2bb357;
+$green-300: #13a53c;
+$green-400: #159333;
+$green-500: #0f7a2d;
+$green-600: #0a561c;
+$green-700: #003f12;
+$green-800: #00280a;
+$green-900: #001403;
 
-$yellow-050: #fff3b6;
-$yellow-100: #ffe67b;
+$yellow-050: #fff8d4;
+$yellow-100: #ffee76;
 $yellow-200: #ffde28;
-$yellow-300: #ffd41d;
-$yellow-400: #f2b800;
-$yellow-500: #bf8400;
-$yellow-600: #995e00;
-$yellow-700: #724400;
-$yellow-800: #4c2c00;
-$yellow-900: #2b1600;
+$yellow-300: #f2c91c;
+$yellow-400: #d8b316;
+$yellow-500: #b59200;
+$yellow-600: #8c6b0d;
+$yellow-700: #664a0a;
+$yellow-800: #3f2700;
+$yellow-900: #1e1100;
 
-$orange-050: #fce2d7;
-$orange-100: #ffd2c0;
-$orange-200: #ffa788;
-$orange-300: #f48657;
-$orange-400: #f17038;
-$orange-500: #ee5310;
-$orange-600: #e54107;
-$orange-700: #992f00;
-$orange-800: #661f00;
-$orange-900: #381000;
+$orange-050: #ffe8d9;
+$orange-100: #ffa357;
+$orange-200: #ff670e;
+$orange-300: #ff5500;
+$orange-400: #e04500;
+$orange-500: #ba3500;
+$orange-600: #872600;
+$orange-700: #681b00;
+$orange-800: #381000;
+$orange-900: #190700;
 
-$red-050: #ffe6ee;
-$red-100: #ffcce3;
-$red-200: #ff99bb;
-$red-300: #ff859c;
-$red-400: #ff4a5c;
-$red-500: #f43434;
-$red-600: #e11c1a;
-$red-700: #a30000;
-$red-800: #700000;
-$red-900: #380100;
+$red-050: #ffdde3;
+$red-100: #ff858d;
+$red-200: #ff5d69;
+$red-300: #f21e0c;
+$red-400: #dd1607;
+$red-500: #bf0900;
+$red-600: #840000;
+$red-700: #600000;
+$red-800: #3d0000;
+$red-900: #1e0000;
 
-$purple-050: #ede2ff;
-$purple-100: #e0d2ff;
-$purple-200: #b99fff;
-$purple-300: #a888ff;
-$purple-400: #936cff;
-$purple-500: #8255ff;
-$purple-600: #7033e5;
-$purple-700: #5800ce;
-$purple-800: #3b0089;
-$purple-900: #100030;
+$pink-050: #ffdef0;
+$pink-100: #ff83d0;
+$pink-200: #ff57b7;
+$pink-300: #ff0e8c;
+$pink-400: #e20584;
+$pink-500: #c1006f;
+$pink-600: #8c004a;
+$pink-700: #600030;
+$pink-800: #440021;
+$pink-900: #16000b;
+
+$purple-050: #dedcff;
+$purple-100: #c0bdff;
+$purple-200: #9e9cff;
+$purple-300: #817bff;
+$purple-400: #6a5fff;
+$purple-500: #5f3eff;
+$purple-600: #5a1bff;
+$purple-700: #3718aa;
+$purple-800: #1b0560;
+$purple-900: #060028;
 
 $blue: $blue-600;
-$teal: $teal-400;
-$green: $green-600;
-$yellow: $yellow-200;
-$orange: $orange-600;
-$red: $red-600;
-$purple: $purple-600;
-$blue-on-dark: $blue-300;
+$blue-on-light: $blue-600;
+$blue-on-dark: $blue-200;
+
+$teal: $teal-200;
+$teal-on-light: $teal-600;
 $teal-on-dark: $teal-200;
+
+$green: $green-200;
+$green-on-light: $green-600;
 $green-on-dark: $green-200;
+
+$yellow: $yellow-200;
+$yellow-on-light: $yellow-600;
 $yellow-on-dark: $yellow-200;
-$orange-on-dark: $orange-400;
-$red-on-dark: $red-400;
-$purple-on-dark: $purple-300;
-$blue-on-light: $blue-700;
-$teal-on-light: $teal-700;
-$green-on-light: $green-700;
-$yellow-on-light: $yellow-700;
-$orange-on-light: $orange-700;
-$red-on-light: $red-700;
-$purple-on-light: $purple-700;
+
+$orange: $orange-200;
+$orange-on-light: $orange-600;
+$orange-on-dark: $orange-200;
+
+$red: $red-300;
+$red-on-light: $red-600;
+$red-on-dark: $red-200;
+
+$pink: $pink-300;
+$pink-on-light: $pink-600;
+$pink-on-dark: $pink-200;
+
+$purple: $purple-600;
+$purple-on-light: $purple-600;
+$purple-on-dark: $purple-200;
+
 $gray: $gray-700;
+$gray-on-light: $gray-700;
 $gray-on-dark: $gray-200;
-$gray-on-light: $gray-800;
 
 $colors: (
    "blue": $blue,
@@ -139,6 +161,7 @@ $colors: (
    "yellow": $yellow,
    "orange": $orange,
    "red": $red,
+   "pink": $pink,
    "purple": $purple,
    "blue-on-dark": $blue-on-dark,
    "teal-on-dark": $teal-on-dark,
@@ -146,6 +169,7 @@ $colors: (
    "yellow-on-dark": $yellow-on-dark,
    "orange-on-dark": $orange-on-dark,
    "red-on-dark": $red-on-dark,
+   "pink-on-dark": $pink-on-dark,
    "purple-on-dark": $purple-on-dark,
    "blue-on-light": $blue-on-light,
    "teal-on-light": $teal-on-light,
@@ -153,6 +177,7 @@ $colors: (
    "yellow-on-light": $yellow-on-light,
    "orange-on-light": $orange-on-light,
    "red-on-light": $red-on-light,
+   "pink-on-light": $pink-on-light,
    "purple-on-light": $purple-on-light,
    "gray": $gray,
    "gray-on-dark": $gray-on-dark,
@@ -170,6 +195,7 @@ $theme-colors: (
    "yellow": $yellow,
    "orange": $orange,
    "red": $red,
+   "pink": $pink,
    "purple": $purple,
    "blue-on-dark": $blue-on-dark,
    "teal-on-dark": $teal-on-dark,
@@ -177,6 +203,7 @@ $theme-colors: (
    "yellow-on-dark": $yellow-on-dark,
    "orange-on-dark": $orange-on-dark,
    "red-on-dark": $red-on-dark,
+   "pink-on-dark": $pink-on-dark,
    "purple-on-dark": $purple-on-dark,
    "blue-on-light": $blue-on-light,
    "teal-on-light": $teal-on-light,
@@ -184,6 +211,7 @@ $theme-colors: (
    "yellow-on-light": $yellow-on-light,
    "orange-on-light": $orange-on-light,
    "red-on-light": $red-on-light,
+   "pink-on-light": $pink-on-light,
    "purple-on-light": $purple-on-light,
    "gray": $gray,
    "gray-on-dark": $gray-on-dark,
@@ -194,12 +222,17 @@ $theme-colors: (
 
 // 1.4 Contrast
 
-$min-contrast-ratio: 4;
+$min-contrast-ratio: 4.5;
 
 // Customize the light and dark text colors for use in our color contrast function.
 $color-contrast-dark: $black;
 $color-contrast-light: $white;
 
-// 2 Links
+// 2 Fonts
+
+$font-weight-normal: 400;
+
+// 3 Links
 
 $link-hover-decoration: none;
+$alert-link-font-weight: $font-weight-normal;
