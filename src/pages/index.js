@@ -23,7 +23,7 @@ const IndexPage = () => {
             <div className="row">
                {colors.map((color) => {
                   return (
-                     <div className="col-md-6 col-lg-6 col-xl-3 mt-4">
+                     <div className="col-md-6 col-xl-3 mt-4">
                         <nav className="navbar navbar-expand-lg navbar-dark bg-black rounded mb-4">
                            <div className="container-fluid">
                               <a
