@@ -19,5 +19,8 @@
 // 4b. Or include all of Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// 5. Add additional custom override styles here
+// 5. Add custom override styles for colors here
+@import "./colors.scss";
+
+// 6. Add additional custom override styles here
 @import "./overrides.scss";

@@ -1,32 +1,21 @@
 import * as React from "react";
+import { useState } from "react";
+import shuffle from "lodash/shuffle";
 
 // markup
 const IndexPage = () => {
-   const colors = [
+   const initialColors = [
       "blue",
       "teal",
       "green",
       "yellow",
       "orange",
       "red",
-      "pink",
-      "purple",
+      "magenta",
       "gray",
    ];
-   const getYiqColor = (color) => {
-      const colorDict = {
-         blue: "white",
-         teal: "black",
-         green: "black",
-         yellow: "black",
-         orange: "black",
-         red: "black",
-         pink: "black",
-         purple: "white",
-         gray: "white",
-      };
-      return colorDict[color];
-   };
+
+   const [colors, setColors] = useState(initialColors);
 
    return (
       <main>
@@ -46,15 +35,15 @@ const IndexPage = () => {
                               </a>
 
                               <div className="float-end">
-                                 <button
-                                    className={`btn btn-link text-${color}-on-dark d-inline`}
+                                 <a
+                                    className={`btn btn-link text-${color}-200 d-inline`}
                                     href="https://www.google.com"
                                  >
-                                    Link
-                                 </button>
+                                    Other
+                                 </a>
 
                                  <button
-                                    className={`btn btn-outline-${color}-on-dark ms-4`}
+                                    className={`btn btn-outline-${color}-200 ms-4`}
                                     type="submit"
                                  >
                                     Call to action
@@ -90,39 +79,38 @@ const IndexPage = () => {
                         <div className="clearfix" />
 
                         <div className="card mb-4">
-                           {/* <div
-                              className={`card-header bg-${color} text-${getYiqColor(
-                                 color
-                              )}`}
-                           >
-                              Featured Section
-                           </div> */}
                            <div className="card-body">
                               <h5 className="card-title">
-                                 An interactive element
+                                 {color[0].toUpperCase() + color.slice(1) + " "}
+                                 interactive element
                               </h5>
                               <p className="card-text">
                                  Supporting text with a link to even more{" "}
                                  <a
                                     href="https://www.google.com"
-                                    className={`text-${color}-on-light`}
+                                    className={`text-${color}-700`}
                                  >
                                     additional content
                                  </a>
                                  .
                               </p>
                               <div className="float-end">
-                                 <button
-                                    className={`btn btn-link text-${color}-on-light`}
+                                 <a
+                                    className={`btn btn-link text-${color}-700`}
                                  >
                                     Link button
-                                 </button>
+                                 </a>
                                  <button
-                                    className={`btn btn-outline-${color}-on-light ms-4`}
+                                    className={`btn btn-outline-${color}-700 ms-4`}
                                  >
                                     Other option
                                  </button>
-                                 <button className={`btn btn-${color} ms-4`}>
+                                 <button
+                                    className={`btn btn-${color} ms-4`}
+                                    onClick={(e) => {
+                                       setColors(shuffle(colors));
+                                    }}
+                                 >
                                     Shuffle colors
                                  </button>
                               </div>
@@ -135,8 +123,8 @@ const IndexPage = () => {
                         >
                            <svg
                               className="bi flex-shrink-0 me-2"
-                              width="24"
-                              height="24"
+                              width="22"
+                              height="22"
                               role="img"
                               aria-label="Alert:"
                               id="check-circle-fill"
