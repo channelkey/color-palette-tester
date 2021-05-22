@@ -2,7 +2,6 @@ import * as React from "react";
 import { useState } from "react";
 import shuffle from "lodash/shuffle";
 
-// markup
 const IndexPage = () => {
    const initialColors = [
       "blue",
@@ -24,14 +23,14 @@ const IndexPage = () => {
             <div className="row">
                {colors.map((color) => {
                   return (
-                     <div className="col-3 mt-4">
+                     <div className="col-md-6 col-lg-6 col-xl-3 mt-4">
                         <nav className="navbar navbar-expand-lg navbar-dark bg-black rounded mb-4">
                            <div className="container-fluid">
                               <a
                                  className="navbar-brand"
                                  href="https://www.google.com"
                               >
-                                 Navigation
+                                 Navbar
                               </a>
 
                               <div className="float-end">
@@ -98,12 +97,12 @@ const IndexPage = () => {
                                  <a
                                     className={`btn btn-link text-${color}-700`}
                                  >
-                                    Link button
+                                    Link
                                  </a>
                                  <button
                                     className={`btn btn-outline-${color}-700 ms-4`}
                                  >
-                                    Other option
+                                    Option
                                  </button>
                                  <button
                                     className={`btn btn-${color} ms-4`}
